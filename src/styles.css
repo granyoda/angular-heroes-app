@@ -9,3 +9,8 @@ body {
 .spacer{
   flex: 1 1 auto;
 }
+
+.space-between{
+  display: flex;
+  justify-content: space-between;
+}

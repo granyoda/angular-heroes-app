@@ -3,3 +3,4 @@ para intalarlo de manera local y NO de manera global:
 - npm install --save-dev json-server
 una ves intalado se agrega el siguiente comando en package.json en la seccion de scripts:
 - "backend": "json-server --watch data/db.json",
+
