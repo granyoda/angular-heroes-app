@@ -6,11 +6,12 @@
   </mat-grid-list>
 </ng-template>
 
+
 <div class="grid p-2" *ngIf="hero; else divLoading">
   <mat-card>
     <mat-card-header>
-      <mat-card-title> {{ hero.alter_ego }} </mat-card-title>
-      <mat-card-subtitle> {{ hero.superhero }} </mat-card-subtitle>
+      <mat-card-title> {{ hero.superhero }} </mat-card-title>
+      <mat-card-subtitle> {{ hero.alter_ego }} </mat-card-subtitle>
     </mat-card-header>
 
     <img [src]="hero | heroImage" [alt]="hero.superhero" mat-card-image>
@@ -25,10 +26,23 @@
 
     <mat-card-content>
       <mat-list>
-        <mat-list-item> {{ hero.first_appearance }} </mat-list-item>
-        <mat-list-item> {{ hero.characters }} </mat-list-item>
-        <mat-list-item> {{ hero.publisher }} </mat-list-item>
-        <mat-list-item> {{ hero.alter_ego }} </mat-list-item>
+
+        <mat-list-item>
+          <strong class="mr-1">Primera aparición: </strong> {{ hero.first_appearance }}
+        </mat-list-item>
+
+        <mat-list-item>
+          <strong class="mr-1">Perosnajes que han utilizado el nombre: </strong> {{ hero.characters }}
+        </mat-list-item>
+
+        <mat-list-item>
+          <strong class="mr-1">Editorial: </strong> {{ hero.publisher }}
+        </mat-list-item>
+
+        <mat-list-item>
+          <strong class="mr-1">Alter ego: </strong> {{ hero.alter_ego }}
+        </mat-list-item>
+
       </mat-list>
 
       <button

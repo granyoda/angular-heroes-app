@@ -12,6 +12,7 @@ import { delay, switchMap } from 'rxjs';
 })
 export class HeroPageComponent implements OnInit{
 
+  //Se pone opcional ya que en caso de no haber ningun hero registrado
   public hero?: Hero;
 
   constructor(
@@ -24,6 +25,7 @@ export class HeroPageComponent implements OnInit{
     this.activatedRoute.params
       .pipe(
         //delay(2000),
+        //de params se desetructura y se obtienen el id
         switchMap( ({id}) => this.heroService.getHeroById(id) ),
       ).subscribe( hero => {
         if( !hero ) return this.router.navigate( ['/heroes/list'] );
