@@ -16,22 +16,6 @@
       "characters": "Bruce Wayne"
     },
     {
-      "id": "dc-superman",
-      "superhero": "Superman",
-      "publisher": "DC Comics",
-      "alter_ego": "Kal-El",
-      "first_appearance": "Action Comics #1",
-      "characters": "Kal-El"
-    },
-    {
-      "id": "dc-flash",
-      "superhero": "Flash",
-      "publisher": "DC Comics",
-      "alter_ego": "Jay Garrick",
-      "first_appearance": "Flash Comics #1",
-      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen"
-    },
-    {
       "id": "dc-green",
       "superhero": "Green Lantern",
       "publisher": "DC Comics",
@@ -54,14 +38,6 @@
       "alter_ego": "Princess Diana",
       "first_appearance": "All Star Comics #8",
       "characters": "Princess Diana"
-    },
-    {
-      "id": "dc-martian",
-      "superhero": "Martian Manhunter",
-      "publisher": "DC Comics",
-      "alter_ego": "J\"onn J\"onzz",
-      "first_appearance": "Detective Comics #225",
-      "characters": "Martian Manhunter"
     },
     {
       "id": "dc-robin",
@@ -166,6 +142,15 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "4vYCCCk",
+      "superhero": "Ampharos",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Dentyu",
+      "first_appearance": "PK HG/ SS",
+      "characters": "Eléctrico",
+      "alt_img": "https://i.pinimg.com/474x/19/80/15/19801555799635c775a1e3aa3192af57.jpg"
     }
   ]
 }
